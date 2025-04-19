@@ -2620,7 +2620,7 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 2.5rem 0;
+			margin: 0.5rem 0;
 			width: 100%;
 		}
 
@@ -2634,7 +2634,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 4rem 0;
+			margin: 0.5rem 0;
 			width: 100%;
 		}
 
@@ -2643,17 +2643,18 @@ input, select, textarea {
 			}
 
 			.image.main img {
-				width: 100%;
+				width: 90%;
+				margin: auto
 			}
 
 		@media screen and (max-width: 736px) {
 
 			.image.fit {
-				margin: 2rem 0;
+				margin: 0.5rem 0;
 			}
 
 			.image.main {
-				margin: 2rem 0;
+				margin: 0.5rem 0;
 			}
 
 		}
@@ -2675,6 +2676,22 @@ input, select, textarea {
 			-ms-transform: scale(1.05);
 			transform: scale(1.05);
 		}
+	
+	figure {
+		padding-bottom: 1rem;
+	}
+
+	figure.app {
+		max-width: 80%;
+		margin: auto;
+	}
+
+	figcaption {
+		font-size: small;
+	}
+
+
+
 
 /* Actions */
 
@@ -3723,6 +3740,7 @@ input, select, textarea {
 
 				#nav ul.links li.active {
 					background-color: #ffffff;
+					border: 1px solid #1e252d;
 				}
 
 					#nav ul.links li.active a {
@@ -3779,7 +3797,7 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 8rem 8rem 6rem 8rem ;
+			padding: 6rem 8rem 4rem 8rem ;
 		}
 
 			#main > .post header.major > .date {
@@ -3787,7 +3805,7 @@ input, select, textarea {
 			}
 
 			#main > .post header.major > h1, #main > .post header.major h2 {
-				font-size: 4rem;
+				font-size: 3.5rem;
 				line-height: 1.1;
 				margin: 0 0 2rem 0;
 			}
