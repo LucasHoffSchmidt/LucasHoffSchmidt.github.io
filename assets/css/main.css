@@ -242,15 +242,15 @@ input, select, textarea {
 		}
 
 		h2 {
-			font-size: 1.25em;
+			font-size: 1.5em;
 		}
 
 		h3 {
-			font-size: 1em;
+			font-size: 1.2em;
 		}
 
 		h4 {
-			font-size: 0.8em;
+			font-size: 1em;
 		}
 
 		h5 {
@@ -261,6 +261,10 @@ input, select, textarea {
 			font-size: 0.6em;
 		}
 
+		p {
+			margin: 0 0 2em 0;
+			font-size: 1em
+		}
 	}
 
 	sub {
@@ -1845,7 +1849,7 @@ input, select, textarea {
 		letter-spacing: 0.25em;
 		line-height: 4.75em;
 		outline: 0;
-		padding: 0 3.75em;
+		padding: 0 2.5em;
 		position: relative;
 		text-align: center;
 		text-decoration: none;
@@ -1907,7 +1911,7 @@ input, select, textarea {
 		input[type="button"].large,
 		button.large,
 		.button.large {
-			font-size: 0.8em;
+			font-size: 1em;
 		}
 
 		input[type="submit"].primary,
@@ -3929,7 +3933,7 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				#intro p {
-					font-size: 1em;
+					font-size: 1.1em;
 				}
 
 			}
